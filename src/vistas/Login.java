@@ -136,7 +136,8 @@ public class Login extends JFrame implements ActionListener {
                 }
             }
         } catch (Exception e) {
-            // Manejo de errores si Nimbus no carga. La aplicación usará el tema por defecto.
+            // Manejo de errores si Nimbus no carga. La aplicación usará el tema por
+            // defecto.
             System.err.println("Error al aplicar el tema Nimbus. Usando tema por defecto.");
             e.printStackTrace();
         }
@@ -145,5 +146,3 @@ public class Login extends JFrame implements ActionListener {
         new Login(); // Punto de entrada
     }
 }
-
-//New comentary
